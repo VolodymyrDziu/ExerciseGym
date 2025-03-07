@@ -1,9 +1,7 @@
 //
 //  ContentView.swift
 //  ExerciseGym
-//
-//  Created by Volodymyr Dziubenko on 07.03.2025.
-//
+
 
 import SwiftUI
 struct ContentView: View {
