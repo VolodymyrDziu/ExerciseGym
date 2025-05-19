@@ -25,6 +25,7 @@ class WorkoutData: ObservableObject {
     func addExercise(_ exercise: ExerciseModel) {
          exercises.append(exercise)
          saveExercises()
+        print("add--> ", exercise)
      }
 
 
@@ -38,10 +39,10 @@ class WorkoutData: ObservableObject {
       
        }
     
-    func deletExercise(at indexSet: IndexSet){
-           exercises.remove(atOffsets: indexSet)
-           saveExercises()
-        print("delet--> ",indexSet)
+    func deleteExercise(at offsets: IndexSet) {
+        exercises.remove(atOffsets: offsets)
+        saveExercises()
+        print("delet--> ", offsets)
        }
     
     private static func loadExercises() -> [ExerciseModel]{
