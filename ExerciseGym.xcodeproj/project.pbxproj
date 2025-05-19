@@ -7,18 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC4A60802D837F7300EF7C59 /* dumbbell_fly.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CC4A607F2D837F7300EF7C59 /* dumbbell_fly.mp4 */; };
+		CC5080C62D7D8CB200D0C76A /* ExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5080C52D7D8CB200D0C76A /* ExerciseDetailView.swift */; };
+		CC5080C82D7D8D3D00D0C76A /*  RestTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5080C72D7D8D3D00D0C76A /*  RestTimerView.swift */; };
+		CC5080CC2D7E132400D0C76A /* race_start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC5080CB2D7E132400D0C76A /* race_start.mp3 */; };
 		CC66A1B12D7B239A00F89D73 /* ExerciseGymApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC66A1B02D7B239A00F89D73 /* ExerciseGymApp.swift */; };
 		CC66A1B32D7B239A00F89D73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC66A1B22D7B239A00F89D73 /* ContentView.swift */; };
 		CC66A1B52D7B239C00F89D73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC66A1B42D7B239C00F89D73 /* Assets.xcassets */; };
 		CC66A1B82D7B239C00F89D73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC66A1B72D7B239C00F89D73 /* Preview Assets.xcassets */; };
+		CC66A1BF2D7B81B000F89D73 /* ExerciseCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC66A1BE2D7B81B000F89D73 /* ExerciseCategoryModel.swift */; };
+		CC66A1C12D7B834E00F89D73 /* ExerciseEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC66A1C02D7B834E00F89D73 /* ExerciseEditView.swift */; };
+		CC72020C2D7CD30E00D54B19 /*  ExerciseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC72020B2D7CD30E00D54B19 /*  ExerciseListView.swift */; };
+		CC7536CA2D84D1A8000A2142 /* WorkoutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7536C92D84D1A8000A2142 /* WorkoutData.swift */; };
+		CC7536CC2D84D23D000A2142 /* AddExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7536CB2D84D23D000A2142 /* AddExerciseView.swift */; };
+		CC7BE66F2DDB7E4A00134F06 /* benchpress.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CC7BE6662DDB7E4900134F06 /* benchpress.mp4 */; };
+		CC7BE6702DDB7E4A00134F06 /* biceps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CC7BE6672DDB7E4900134F06 /* biceps.mp4 */; };
+		CC7BE6712DDB7E4A00134F06 /* karman.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CC7BE6682DDB7E4900134F06 /* karman.mp4 */; };
+		CC7BE6722DDB7E4A00134F06 /* GymBlokUp.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CC7BE6692DDB7E4900134F06 /* GymBlokUp.mp4 */; };
+		CC7BE6742DDB7E4A00134F06 /* gymgl.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CC7BE66B2DDB7E4A00134F06 /* gymgl.mp4 */; };
+		CC7BE6752DDB7E4A00134F06 /* gymLegsDoun.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CC7BE66C2DDB7E4A00134F06 /* gymLegsDoun.mp4 */; };
+		CC7BE6762DDB7E4A00134F06 /* hammer.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CC7BE66D2DDB7E4A00134F06 /* hammer.mp4 */; };
+		CC7BE6782DDB7F7500134F06 /* rumyn.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CC7BE6772DDB7F7500134F06 /* rumyn.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC4A607F2D837F7300EF7C59 /* dumbbell_fly.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = dumbbell_fly.mp4; path = ../../../../Downloads/dumbbell_fly.mp4; sourceTree = "<group>"; };
+		CC5080C52D7D8CB200D0C76A /* ExerciseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailView.swift; sourceTree = "<group>"; };
+		CC5080C72D7D8D3D00D0C76A /*  RestTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " RestTimerView.swift"; sourceTree = "<group>"; };
+		CC5080CB2D7E132400D0C76A /* race_start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = race_start.mp3; path = ../../../../Downloads/race_start.mp3; sourceTree = "<group>"; };
 		CC66A1AD2D7B239A00F89D73 /* ExerciseGym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExerciseGym.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC66A1B02D7B239A00F89D73 /* ExerciseGymApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseGymApp.swift; sourceTree = "<group>"; };
 		CC66A1B22D7B239A00F89D73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CC66A1B42D7B239C00F89D73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC66A1B72D7B239C00F89D73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC66A1BE2D7B81B000F89D73 /* ExerciseCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCategoryModel.swift; sourceTree = "<group>"; };
+		CC66A1C02D7B834E00F89D73 /* ExerciseEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseEditView.swift; sourceTree = "<group>"; };
+		CC72020B2D7CD30E00D54B19 /*  ExerciseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ExerciseListView.swift"; sourceTree = "<group>"; };
+		CC7536C92D84D1A8000A2142 /* WorkoutData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutData.swift; sourceTree = "<group>"; };
+		CC7536CB2D84D23D000A2142 /* AddExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExerciseView.swift; sourceTree = "<group>"; };
+		CC7BE6662DDB7E4900134F06 /* benchpress.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = benchpress.mp4; sourceTree = "<group>"; };
+		CC7BE6672DDB7E4900134F06 /* biceps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = biceps.mp4; sourceTree = "<group>"; };
+		CC7BE6682DDB7E4900134F06 /* karman.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = karman.mp4; sourceTree = "<group>"; };
+		CC7BE6692DDB7E4900134F06 /* GymBlokUp.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GymBlokUp.mp4; sourceTree = "<group>"; };
+		CC7BE66B2DDB7E4A00134F06 /* gymgl.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gymgl.mp4; sourceTree = "<group>"; };
+		CC7BE66C2DDB7E4A00134F06 /* gymLegsDoun.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gymLegsDoun.mp4; sourceTree = "<group>"; };
+		CC7BE66D2DDB7E4A00134F06 /* hammer.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hammer.mp4; sourceTree = "<group>"; };
+		CC7BE6772DDB7F7500134F06 /* rumyn.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rumyn.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +87,13 @@
 			children = (
 				CC66A1B02D7B239A00F89D73 /* ExerciseGymApp.swift */,
 				CC66A1B22D7B239A00F89D73 /* ContentView.swift */,
+				CC66A1BE2D7B81B000F89D73 /* ExerciseCategoryModel.swift */,
+				CC66A1C02D7B834E00F89D73 /* ExerciseEditView.swift */,
+				CC72020B2D7CD30E00D54B19 /*  ExerciseListView.swift */,
+				CC5080C52D7D8CB200D0C76A /* ExerciseDetailView.swift */,
+				CC7536C92D84D1A8000A2142 /* WorkoutData.swift */,
+				CC7536CB2D84D23D000A2142 /* AddExerciseView.swift */,
+				CC5080C72D7D8D3D00D0C76A /*  RestTimerView.swift */,
 				CC66A1B42D7B239C00F89D73 /* Assets.xcassets */,
 				CC66A1B62D7B239C00F89D73 /* Preview Content */,
 			);
@@ -62,6 +103,16 @@
 		CC66A1B62D7B239C00F89D73 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				CC7BE6772DDB7F7500134F06 /* rumyn.mp4 */,
+				CC7BE6662DDB7E4900134F06 /* benchpress.mp4 */,
+				CC7BE6672DDB7E4900134F06 /* biceps.mp4 */,
+				CC7BE6692DDB7E4900134F06 /* GymBlokUp.mp4 */,
+				CC7BE66B2DDB7E4A00134F06 /* gymgl.mp4 */,
+				CC7BE66C2DDB7E4A00134F06 /* gymLegsDoun.mp4 */,
+				CC7BE66D2DDB7E4A00134F06 /* hammer.mp4 */,
+				CC7BE6682DDB7E4900134F06 /* karman.mp4 */,
+				CC4A607F2D837F7300EF7C59 /* dumbbell_fly.mp4 */,
+				CC5080CB2D7E132400D0C76A /* race_start.mp3 */,
 				CC66A1B72D7B239C00F89D73 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -125,8 +176,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC7BE6752DDB7E4A00134F06 /* gymLegsDoun.mp4 in Resources */,
+				CC7BE6762DDB7E4A00134F06 /* hammer.mp4 in Resources */,
 				CC66A1B82D7B239C00F89D73 /* Preview Assets.xcassets in Resources */,
+				CC7BE6782DDB7F7500134F06 /* rumyn.mp4 in Resources */,
+				CC5080CC2D7E132400D0C76A /* race_start.mp3 in Resources */,
+				CC7BE6712DDB7E4A00134F06 /* karman.mp4 in Resources */,
+				CC7BE6722DDB7E4A00134F06 /* GymBlokUp.mp4 in Resources */,
 				CC66A1B52D7B239C00F89D73 /* Assets.xcassets in Resources */,
+				CC7BE66F2DDB7E4A00134F06 /* benchpress.mp4 in Resources */,
+				CC7BE6742DDB7E4A00134F06 /* gymgl.mp4 in Resources */,
+				CC4A60802D837F7300EF7C59 /* dumbbell_fly.mp4 in Resources */,
+				CC7BE6702DDB7E4A00134F06 /* biceps.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC66A1C12D7B834E00F89D73 /* ExerciseEditView.swift in Sources */,
+				CC7536CC2D84D23D000A2142 /* AddExerciseView.swift in Sources */,
+				CC7536CA2D84D1A8000A2142 /* WorkoutData.swift in Sources */,
+				CC5080C62D7D8CB200D0C76A /* ExerciseDetailView.swift in Sources */,
+				CC66A1BF2D7B81B000F89D73 /* ExerciseCategoryModel.swift in Sources */,
 				CC66A1B32D7B239A00F89D73 /* ContentView.swift in Sources */,
 				CC66A1B12D7B239A00F89D73 /* ExerciseGymApp.swift in Sources */,
+				CC5080C82D7D8D3D00D0C76A /*  RestTimerView.swift in Sources */,
+				CC72020C2D7CD30E00D54B19 /*  ExerciseListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
